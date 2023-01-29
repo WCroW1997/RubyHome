@@ -89,3 +89,29 @@ body{
         }
     }
 }
+
+.hero{
+    margin-top: 70px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 104px;
+    }
+
+    &__title{
+        font-weight: $font-semibold;
+        font-size: 61px;
+        line-height: 120%;
+        color: $main-black;
+    }
+
+    &__desc{
+        font-weight: $font-medium;
+        font-size: 18px;
+        line-height: 27px;
+        color: $opacity-black;
+        margin: 30px 0 40px;
+    }
+}
